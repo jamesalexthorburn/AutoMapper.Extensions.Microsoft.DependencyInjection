@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>AutoMapper extensions for ASP.NET Core</Description>
     <Copyright>Copyright Jimmy Bogard</Copyright>
-    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+	  <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <AssemblyName>AutoMapper.Extensions.Microsoft.DependencyInjection</AssemblyName>
     <PackageId>AutoMapper.Extensions.Microsoft.DependencyInjection</PackageId>
     <SignAssembly>true</SignAssembly>
@@ -22,15 +22,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
-    <PackageReference Include="MinVer" Version="4.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\icon.png" Pack="true" PackagePath="" />
     <None Include="..\..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\AutoMapper\src\AutoMapper\AutoMapper.csproj" />
   </ItemGroup>
 
 </Project>
