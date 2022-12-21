@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>AutoMapper extensions for ASP.NET Core</Description>
     <Copyright>Copyright Jimmy Bogard</Copyright>
-	  <TargetFrameworks>netstandard2.1</TargetFrameworks>
+	  <TargetFramework>netstandard2.1</TargetFramework>
     <AssemblyName>AutoMapper.Extensions.Microsoft.DependencyInjection</AssemblyName>
     <PackageId>AutoMapper.Extensions.Microsoft.DependencyInjection</PackageId>
     <SignAssembly>true</SignAssembly>
